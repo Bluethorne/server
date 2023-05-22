@@ -1,0 +1,37 @@
+name: miniGames
+author: Bluethorne
+version: 1.0
+main: games.main.Main
+description: Games in other servers
+api-version: 1.16
+
+commands:
+    play:
+        usage: /<command> <player>
+        description: Type to play a game
+    leave:
+        usage: /<command>
+        description: Type to leave a game or a que
+    playwith:
+        usage: /<command> <accept|decline> <player>
+        description: Type to chose who to play with
+    stats:
+        usage: /<command> <player>
+        description: Gets peoples stats
+    rank:
+        usage: /<command> <rank> <players>
+        description: Gives a rank
+    respond:
+        usage: /<command> <UUID> <response>
+    hub:
+        usage: /<command>
+        description: Go back to hub
+    world:
+        usage: /<command>
+        description: Change world
+    skin:
+        usage: /<command>
+        description: Sets skin
+    help:
+        usage: /<command>
+        description: Shows commands
