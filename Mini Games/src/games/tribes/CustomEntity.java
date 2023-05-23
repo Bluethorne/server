@@ -90,17 +90,7 @@ public class CustomEntity implements Listener{
 		COD(Cod.class),
 		SALMON(Salmon.class),
 		SARDINE(Sardine.class),
-		//WHALE,
-		//OCTOPUS,
-		//TURTLE,
-		//SEAL,
-		//DOLPHIN,
-		//SHARK,
-		//WALRUS,
 		CLAM(Clam.class);
-		//SEAGULL,
-		//EAGLE,
-		//CRAB,
 		
 		Class<? extends CustomEntity> clazz;
 		
